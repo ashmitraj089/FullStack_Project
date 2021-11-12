@@ -1,0 +1,36 @@
+<app-navbar [parent_msg]="child_msg"></app-navbar>
+<main class="testimonial py-5" id="testimonial">
+    <div class="container main_body">
+        <div class="row">
+            <div class="side col-md-4 py-5 text-center ">
+                <div class=" ">
+                    <div class="card-body">
+                        <img
+                            src="http://www.minnusfoodproducts.com/images/dummy.png" class="brand_logo" alt="Logo">
+
+                        <h2 class="py-3">Educational Details</h2>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class=" side2 col-md-8 py-5 border">
+                <h1 class=" display-5 heading pb-4 text-center"><strong>Your Educational Details</strong></h1>
+                <div class="mb-2">
+                    <label> <b> Xth Marks(CGPA / %) : </b></label> {{education.secondary}}
+                </div>
+                <div  class="mb-2">
+                    <label> <b> XIIth Marks(CGPA / %) : </b></label> {{education.ss}}
+                </div>
+                <div class="mb-2">
+                    <label> <b> BTech Marks(CGPA / %) : </b></label> {{education.btech}}
+                </div>
+                <div class="mb-2">
+                    <label> <b> Mtech Marks(CGPA / %) : </b></label> {{education.mtech}}
+                </div>
+                <div>
+                    <button (click) = "updateEmployee()" class = "btn btn-warning"> Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

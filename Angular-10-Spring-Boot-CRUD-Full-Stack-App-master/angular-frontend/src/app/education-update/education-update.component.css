@@ -1,0 +1,61 @@
+.far{
+	padding-bottom:1%;
+}
+.side{
+	background:#D7D5D5;
+	color:black;
+	border-radius:5px;
+}
+.side2{
+	border-radius:5px;
+	background:white;
+}
+.side_button:hover{
+	color: #337b68 !important;
+}
+.heading{
+	color:#337b68;
+}
+.main_body{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.brand_logo_container {
+			position: absolute;
+			height: 170px;
+			width: 170px;
+			top: -75px;
+			border-radius: 50%;
+			background: white;
+			padding: 10px;
+			text-align: center;
+}
+.brand_logo {
+			height: 150px;
+			width: 150px;
+			border-radius: 50%;
+			border: 2px solid white;
+}
+
+.login_btn {
+			margin-top:0%;
+			width: 20%;
+			background: #337b68 ;
+			color: white !important;
+}
+.login_btn:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+}
+.login_btn:hover{
+	background:#00291C !important;
+}
+
+.input-group-text {
+			background: #337b68 !important;
+			color: white !important;
+			border: 0 !important;
+			border-radius: 0.25rem 0 0 0.25rem !important;
+}
